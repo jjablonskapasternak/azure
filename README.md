@@ -1,5 +1,7 @@
-#az login
-#az login -u <username> -p <password>
+#login 
+az login
+#az login with usename 
+az login -u <username> -p <password>
 # Create a resource group.
 az group create --name myRG-3 --location westeurope
 # Create a virtual network.
